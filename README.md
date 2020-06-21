@@ -19,7 +19,7 @@ Ps: "Error 404 - Not found" forte referência com "Guia do mochileiro das galáx
 
 <h3>Na Pratica</h3>
 
-<img src="https://user-images.githubusercontent.com/28874479/85187976-208bab80-b27a-11ea-9ee4-ffa926024168.gif"/>
+<img src="https://user-images.githubusercontent.com/28874479/85216703-4d18f380-b35e-11ea-99d2-733222002766.gif"/>
 
 Tecnologias utilizadas :
 
