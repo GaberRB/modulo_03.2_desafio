@@ -1,0 +1,28 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Sobre</title>
+{% endblock %}
+
+{% block content %}
+
+    <div id="logo_img">
+        <img src="{{about.url}}" alt="Imagem {{about.name}}">
+        <h1>{{about.name}}</h1>
+        <p>{{about.description}}</p>
+    </div>
+    <div class="list">
+        <h3>Technologies</h3>
+        <ul>
+            {% for stack in about.stacks %}
+                <li>{{stack.name}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div id="links-footer" class="links">
+        {% for link in about.links %}
+            <a href="{{link.url_link}}" target="_blank">{{link.name}}</a>
+        {% endfor %}
+
+    </div>
+{% endblock %}
