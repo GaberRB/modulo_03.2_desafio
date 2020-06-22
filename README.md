@@ -16,7 +16,9 @@ Criação do servidor utilizando Express NodeJS , injetando template engine com 
  
 Exemplo: 
 
-<code> {% for stack in about.stacks %}<br><li> {{stack.name}}</li><br>{% endfor %}<br></code>
+<code> {% for stack in about.stacks %}<br>
+      < li > {{stack.name}}</ li ><br>
+{% endfor %}<br></code>
 
 
 Ps: "Error 404 - Not found" forte referência com "Guia do mochileiro das galáxias" , transição do background, gif embutindo o estilo direto na DOM com Javascript. 
