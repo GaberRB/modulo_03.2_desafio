@@ -5,14 +5,18 @@
 Construção portfolio desafio 3.2 fullstack do bootcamp <a href="https://rocketseat.com.br/" target="_blank">Launchbase Rocketseat.</a> <img src="https://img.icons8.com/emoji/24/000000/rocket-emji.png"/>
 
 Criação do servidor utilizando Express NodeJS , injetando template engine com Nunjucks trazendo dados do back-end para o front. 
+
+<h3> Dependências</h3>
+<code> npm install express </code>
+<code> npm install nunjucks </code>
+
+<h3> Como usar </h3>
+<code> npm start </code>
+      <p> No navegador : http://localhost:5000/ </p>
+ 
 Exemplo: 
 
-<code> 
-{% for stack in about.stacks %}
-
-                <li> {{stack.name}}  </li>
-{% endfor %}
-</code>
+<code> {% for stack in about.stacks %}<br><li> {{stack.name}}</li><br>{% endfor %}<br></code>
 
 
 Ps: "Error 404 - Not found" forte referência com "Guia do mochileiro das galáxias" , transição do background, gif embutindo o estilo direto na DOM com Javascript. 
